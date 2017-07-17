@@ -9,6 +9,7 @@
 <link rel="shortcut icon" type="image/png" href="img/hachi.png"/>
 
 <!-- font -->
+<!-- <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'> -->
 <link href="css/font.css" rel="stylesheet">
 
 <link rel="stylesheet" href="js/magnificPopup/popup.css"> 
@@ -591,6 +592,7 @@ a {
     </div>
 </div>
 
+<!-- <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script> -->
 <script src="js/jquery-1.10.0.min.js"></script>
 <script src="js/magnificPopup/popup.js"></script>
 <script src="js/wow.min.js"></script>
@@ -774,31 +776,10 @@ $(function(){
     $('.popup-image').magnificPopup({
         type:'image'
     });
-    // $('.popup-iframe').magnificPopup({
-    //     disableOn: 700,
-    //     type: 'iframe',
-    //     mainClass: 'mfp-fade',
-    //     removalDelay: 160,
-    //     preloader: false,
-    //     fixedContentPos: false
-    // });
 
     $('.popup-iframe').magnificPopup({
         type: 'iframe'
     });
-
-    /* 視差 */
-    // var $fullHeight = $(window).height();
-
-    // $('.c-unit').each(function(){
-    //     var $bgObj = $(this),
-    //         bgMoveHeight = $bgObj.height();
-
-    //     $(window).scroll(function(){
-    //         var yPos = -($(window).scrollTop() / 3) + 950;
-    //         $bgObj.css('background-position-y', yPos);
-    //     });
-    // });
 
     /* nav auto current */
     var autoCurrent = true;
